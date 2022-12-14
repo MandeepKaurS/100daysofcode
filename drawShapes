@@ -1,0 +1,100 @@
+import turtle as t
+
+tim = t.Turtle()
+
+########### Challenge 3 - Draw Shapes ########
+
+#draw Triangle first
+#To calculate angles, divide 360 by number of sides
+# TRiangle angle = 360/3 = 120
+# rectangle angle = 360/4=90
+#Pentagon angle = 360/5=72
+#Hexagon angle= 360/6 = 60
+#Heptagon angle = 360/7 = 51.42
+#Octagon angle = 360/8 = 45
+#Nonagon angle = 360/9=40
+#Decagon angle = 360/10=36
+
+#Triangle DRAW
+t.fillcolor('#FFA500')
+t.begin_fill()
+t.color("red")
+sides=3
+while(sides>0):
+  t.forward(100)
+  t.right(120)
+  sides-=1
+
+t.end_fill()
+
+#Rectangle DRAW
+t.fillcolor('green')
+t.begin_fill()
+t.color("green")
+sides = 4
+while(sides>0):
+  t.forward(100)
+  t.right(90)
+  sides-=1
+t.end_fill()
+
+#Pentagon DRAW
+t.fillcolor('pink')
+t.begin_fill()
+t.color("pink")
+sides = 5
+while(sides>0):
+  t.forward(100)
+  t.right(72)
+  sides-=1
+t.end_fill()
+#Hexagon DRAW
+t.fillcolor('blue')
+t.begin_fill()
+t.color("blue")
+sides = 6
+while(sides>0):
+  t.forward(100)
+  t.right(60)
+  sides-=1
+t.end_fill()
+#Heptagon DRAW
+t.fillcolor('black')
+t.begin_fill()
+t.color("black")
+sides = 7
+while(sides>0):
+  t.forward(100)
+  t.right(51.4285714)
+  sides-=1
+t.end_fill()
+#Octagon DRAW
+t.fillcolor('pink')
+t.begin_fill()
+t.color("pink")
+sides = 8
+while(sides>0):
+  t.forward(100)
+  t.right(45)
+  sides-=1
+t.end_fill()
+#Nonagon DRAW
+t.fillcolor('orange')
+t.begin_fill()
+t.color("orange")
+sides = 9
+while(sides>0):
+  t.forward(100)
+  t.right(40)
+  sides-=1
+t.end_fill()
+#Decagon DRAW
+t.fillcolor('purple')
+t.begin_fill()
+t.color("purple")
+sides = 10
+while(sides>0):
+  t.forward(100)
+  t.right(36)
+  sides-=1
+t.end_fill()
