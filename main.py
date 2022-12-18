@@ -15,6 +15,6 @@ if(today==6):
     with smtplib.SMTP("smtp.gmail.com",587) as connection:
         connection.ehlo()
         connection.starttls()
-        connection.login("MandeeepShergill94@gmail.com",password="ftcyowflodtsewai")
-        connection.sendmail(from_addr="MandeeepShergill94@gmail.com", to_addrs="MaanoShergill@gmail.com",msg="SUbject - Motivation Dose!\n\n"+str(q.encode('utf-8')))
+        connection.login("mks1@gmail.com",password="ftcyowflodtsewai")
+        connection.sendmail(from_addr="mks1@gmail.com", to_addrs="mks@gmail.com",msg="SUbject - Motivation Dose!\n\n"+str(q.encode('utf-8')))
 
